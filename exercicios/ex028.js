@@ -6,7 +6,7 @@ function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-const numComputador = rande(0, 5)
+const numComputador = rand(0, 5)
 const numPessoa = Number(input('Em que número eu pensei? '))
 
 setTimeout(() => {
